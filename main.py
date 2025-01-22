@@ -4,7 +4,7 @@ from pathlib import Path
 from src.contours import process_contours_for_folder
 from utils.path import get_image_paths_from_folder
 
-inPath = '/home/shashank/personal/poe/codex-helper/images/praetor'
+inPath = '/home/shashank/personal/poe/codex-helper/images/test'
 outPath = '/home/shashank/personal/poe/codex-helper/out/test'
 
 # get inPath and outPath from arguments if available
