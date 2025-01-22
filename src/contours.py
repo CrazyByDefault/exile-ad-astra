@@ -39,7 +39,7 @@ def get_contours(img=None, filename=None, output_file="test-contours.png", io=Tr
   lower_blue = np.array([110,35,100])
   upper_blue = np.array([130,140,255])
   mask_blue = cv.inRange(imghsv, lower_blue, upper_blue)
-  cv.imwrite("mask-file.png", mask_blue)
+  cv.imwrite(os.path.join(os.path.dirname(output_file), "mask-file-tmp.png"), mask_blue)
   
   blank = np.zeros(image.shape, dtype="uint8")
 
@@ -60,14 +60,16 @@ def get_contours(img=None, filename=None, output_file="test-contours.png", io=Tr
         cv.drawContours(blank, [cnt], -1, (0,0,255), 1)
       if cv.arcLength(cnt, True) < 20:
         cv.drawContours(blank, [cnt], 0, (0,255,0), 1)
-  print("smallest areas", sorted(cntAreas[:20]))
-  print("smallest lens", sorted(cntLengths[:20]))
+
+  # debugging stuff for cleanup
+  # print("smallest areas", sorted(cntAreas[:20]))
+  # print("smallest lens", sorted(cntLengths[:20]))
 
 
   # dilate the img
   kernelDilate = cv.getStructuringElement(cv.MORPH_ELLIPSE,(6,6))
   dilated = cv.dilate(mask_blue, kernelDilate)
-  cv.imwrite("dilated-mask.png", dilated)
+  cv.imwrite(os.path.join(os.path.dirname(output_file), "dilated-mask-tmp.png"), dilated)
 
   if io:
     cv.imwrite(output_file, blank)
