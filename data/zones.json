@@ -1,0 +1,2148 @@
+{
+  "Act1": [
+    {
+      "name": "The Riverbank",
+      "id": "G1_1",
+      "act": 1,
+      "type": "area",
+      "area_level": 1,
+      "has_waypoint": false,
+      "connections": [
+        "Clearfell Encampment"
+      ],
+      "points_of_interest": [
+        {
+          "name": "Besieged Encampment",
+          "type": "Boss arena",
+          "description": "A small clearing immediately outside of Clearfell Encampment, where The Bloated Miller is encountered."
+        }
+      ],
+      "quests": [
+        "Reaching Clearfell"
+      ],
+      "monsters": [
+        "The Bloated Miller",
+        "Drowned",
+        "Porcupine Crab"
+      ]
+    },
+    {
+      "name": "Clearfell Encampment",
+      "id": "G1_Town",
+      "act": 1,
+      "type": "town",
+      "area_level": 15,
+      "has_waypoint": true,
+      "connections": [
+        "The Riverbank",
+        "Clearfell",
+        "Vastiri Outskirts"
+      ],
+      "npcs": [
+        {
+          "name": "Renly",
+          "role": "Weapons and Armour vendor"
+        },
+        {
+          "name": "Una",
+          "role": "Caster vendor; disenchants items"
+        },
+        {
+          "name": "Finn",
+          "role": "Gambler"
+        },
+        {
+          "name": "The Hooded One",
+          "role": "Identifies items; refunds passive skills for gold, unlocked after completing 'The Mysterious Shade'"
+        },
+        {
+          "name": "Leitis",
+          "role": "NPC (unlocked after completing 'The Trail of Corruption')"
+        }
+      ],
+      "interactables": [
+        {
+          "name": "Well",
+          "description": "Restores life, mana, and flask/charm charges"
+        },
+        {
+          "name": "Waypoint",
+          "description": "Teleport to other waypoints"
+        },
+        {
+          "name": "Salvage Bench",
+          "description": "Salvage equipment with quality or rune sockets for currency (unlocked after 'Finding the Forge')"
+        }
+      ],
+      "quests": [
+        "Reaching Clearfell",
+        "Treacherous Ground",
+        "Secrets in the Dark",
+        "The Mysterious Shade",
+        "Sorrow Among Stones",
+        "The Trail of Corruption",
+        "Ominous Altars (optional)",
+        "The Lost Lute (optional)",
+        "Finding the Forge (optional)",
+        "The Mad Wolf of Ogham"
+      ]
+    },
+    {
+      "name": "Clearfell",
+      "id": "G1_2",
+      "act": 1,
+      "type": "area",
+      "area_level": 2,
+      "has_waypoint": true,
+      "connections": [
+        "Clearfell Encampment",
+        "Mud Burrow",
+        "The Grelwood"
+      ],
+      "points_of_interest": [
+        {
+          "name": "Frostblood Ritual",
+          "type": "Boss arena",
+          "description": "An elevated snowy hill with log piles and a bloody ritual sigil, littered with Rotten Wolf corpses. Beira of the Rotten Pack is fought here and drops the unique Head of the Winter Wolf. (+10 Cold Res)"
+        },
+        {
+          "name": "Mysterious Campsite",
+          "type": "Notable chest",
+          "description": "An abandoned campsite guarded by Rotting Guards. Contains an Abandoned Stash and a Level 1 Uncut Skill Gem."
+        }
+      ],
+      "quests": [
+        "The Mysterious Shade"
+      ],
+      "monsters": [
+        "Beira of the Rotten Pack",
+        "Rotten Wolf",
+        "Lumbering Dead",
+        "Vile Hag",
+        "Vile Imp",
+        "Rotting Guard"
+      ]
+    },
+    {
+      "name": "Mud Burrow",
+      "id": "G1_3",
+      "act": 1,
+      "type": "area",
+      "area_level": 3,
+      "has_waypoint": false,
+      "connections": [
+        "Clearfell"
+      ],
+      "points_of_interest": [
+        {
+          "name": "Vile Nest",
+          "type": "Boss arena",
+          "description": "A large cavern chamber where The Devourer is encountered. The Devourer drops an Uncut Skill Gem (Level 2)."
+        },
+        {
+          "name": "Hatchery",
+          "type": "Notable chest",
+          "description": "An area with several egg sacs that can be broken open."
+        },
+        {
+          "name": "Woodman's Locker",
+          "type": "Chest",
+          "description": "Clusters of magic chests found in larger clearings."
+        }
+      ],
+      "quests": [
+        "Treacherous Ground"
+      ],
+      "monsters": [
+        "The Devourer",
+        "Wretched Rattler",
+        "Flesh Larva",
+        "Mud Simulacrum"
+      ]
+    },
+    {
+      "name": "The Grelwood",
+      "id": "G1_4",
+      "act": 1,
+      "type": "area",
+      "area_level": 4,
+      "has_waypoint": true,
+      "connections": [
+        "Clearfell",
+        "The Red Vale",
+        "The Grim Tangle"
+      ],
+      "points_of_interest": [
+        {
+          "name": "The Moving Bramble",
+          "type": "Boss arena",
+          "description": "A thorn-vine-surrounded clearing where The Brambleghast is fought. It drops an Uncut Skill Gem (Level 2)."
+        },
+        {
+          "name": "Areagne's Hut",
+          "type": "Miniboss arena",
+          "description": "A small hut containing a Cauldron chest with flasks. On exiting, the rare monster Areagne, Forgotten Witch ambushes the player. Defeating her yields an Uncut Support Gem (Level 1)."
+        },
+        {
+          "name": "Tree of Souls",
+          "type": "Notable landmark",
+          "description": "A large sealed tree to which The Hooded One is bound. Requires collecting Runed Spikes to break the seals."
+        }
+      ],
+      "quests": [
+        "Secrets in the Dark"
+      ],
+      "monsters": [
+        "The Brambleghast",
+        "Areagne, Forgotten Witch",
+        "Werewolf Prowler",
+        "Pack Werewolf",
+        "Fungal Zombie",
+        "Vile Imp"
+      ]
+    },
+    {
+      "name": "The Red Vale",
+      "id": "G1_5",
+      "act": 1,
+      "type": "area",
+      "area_level": 5,
+      "has_waypoint": true,
+      "connections": [
+        "The Grelwood"
+      ],
+      "points_of_interest": [
+        {
+          "name": "Obelisk of Rust",
+          "type": "Boss arena",
+          "description": "Three ancient obelisks scattered in the vale. Activating them summons packs of Ancient Ezomytes. The third obelisk spawns The Rust King boss, who drops the Runed Skull Cap quest item and a Level 3 Uncut Skill Gem."
+        },
+        {
+          "name": "Abandoned Stash",
+          "type": "Chest",
+          "description": "Arms caches (chests) found throughout the area containing various low-level martial weapons."
+        }
+      ],
+      "quests": [
+        "Secrets in the Dark"
+      ],
+      "monsters": [
+        "The Rust King",
+        "Ancient Ezomyte",
+        "Maw Demon",
+        "Bloom Serpent"
+      ]
+    },
+    {
+      "name": "The Grim Tangle",
+      "id": "G1_6",
+      "act": 1,
+      "type": "area",
+      "area_level": 6,
+      "has_waypoint": true,
+      "connections": [
+        "The Grelwood",
+        "Cemetery of the Eternals"
+      ],
+      "points_of_interest": [
+        {
+          "name": "Den of the Druid",
+          "type": "Boss arena",
+          "description": "A circular cavern with regenerating explosive mushrooms. The Rotten Druid resides here and drops an Uncut Support Gem (Level 1)."
+        }
+      ],
+      "quests": [
+        "The Mysterious Shade"
+      ],
+      "monsters": [
+        "The Rotten Druid",
+        "Fungal Proliferator",
+        "Fungal Artillery",
+        "Fungal Rattler",
+        "Fungal Zombie",
+        "Fungal Wolf"
+      ]
+    },
+    {
+      "name": "Cemetery of the Eternals",
+      "id": "G1_7",
+      "act": 1,
+      "type": "area",
+      "area_level": 7,
+      "has_waypoint": true,
+      "connections": [
+        "The Grim Tangle",
+        "Mausoleum of the Praetor",
+        "Tomb of the Consort",
+        "Hunting Grounds"
+      ],
+      "points_of_interest": [
+        {
+          "name": "Memorial of the Lost",
+          "type": "Boss arena",
+          "description": "A courtyard with a large memorial statue where Lachlann of Endless Lament is fought. Defeating him yields an Uncut Skill Gem (Level 3)."
+        },
+        {
+          "name": "Ancient Ruin",
+          "type": "Notable chest",
+          "description": "A ruined section containing two lore items and a sarcophagus chest (contains a normal ring)."
+        }
+      ],
+      "quests": [
+        "The Mysterious Shade",
+        "Sorrow Among Stones"
+      ],
+      "monsters": [
+        "Lachlann of Endless Lament",
+        "Burdened Wretch",
+        "Death Knight",
+        "Frost Wraith",
+        "Hungering Stalker",
+        "Risen Rattler",
+        "Undertaker"
+      ]
+    },
+    {
+      "name": "Mausoleum of the Praetor",
+      "id": "G1_8",
+      "act": 1,
+      "type": "area",
+      "area_level": 9,
+      "has_waypoint": true,
+      "connections": [
+        "Cemetery of the Eternals"
+      ],
+      "points_of_interest": [
+        {
+          "name": "Heart of the Mausoleum",
+          "type": "Boss arena",
+          "description": "A rectangular central chamber where Draven, the Eternal Praetor (boss) emerges from a pit."
+        },
+        {
+          "name": "Forgotten Riches",
+          "type": "Notable chest",
+          "description": "A hidden treasure room containing piles of gold and two rare chests. Accessed by activating a concealed switch on a pillar."
+        }
+      ],
+      "quests": [
+        "Sorrow Among Stones"
+      ],
+      "monsters": [
+        "Draven, the Eternal Praetor",
+        "Courtesan",
+        "Lightning Wraith",
+        "Ghoul Commander",
+        "Eternal Knight",
+        "Blood Cretin",
+        "Stalking Ghoul",
+        "Risen Rattler",
+        "Wheelbound Hag"
+      ]
+    },
+    {
+      "name": "Tomb of the Consort",
+      "id": "G1_9",
+      "act": 1,
+      "type": "area",
+      "area_level": 9,
+      "has_waypoint": true,
+      "connections": [
+        "Cemetery of the Eternals"
+      ],
+      "points_of_interest": [
+        {
+          "name": "Heart of the Tomb",
+          "type": "Boss arena",
+          "description": "A rectangular burial chamber where Asinia, the Praetor's Consort, appears from a central pit."
+        },
+        {
+          "name": "Haunted Treasure",
+          "type": "Notable chest",
+          "description": "A special chest guarded by a ghost. Approaching it spawns Risen Rattlers and a rare Eternal Knight, which drops an Uncut Support Gem (Level 1)."
+        }
+      ],
+      "quests": [
+        "Sorrow Among Stones"
+      ],
+      "monsters": [
+        "Asinia, the Praetor's Consort",
+        "Dread Servant",
+        "Eternal Knight",
+        "Bone Stalker",
+        "Risen Rattler",
+        "Knight-Gaunt"
+      ]
+    },
+    {
+      "name": "Hunting Grounds",
+      "id": "G1_11",
+      "act": 1,
+      "type": "area",
+      "area_level": 10,
+      "has_waypoint": true,
+      "connections": [
+        "Cemetery of the Eternals",
+        "Freythorn",
+        "Ogham Farmlands"
+      ],
+      "points_of_interest": [
+        {
+          "name": "The Hunt Stone",
+          "type": "Boss arena",
+          "description": "A path lined with wooden structures and a giant bell, leading to a stone monument. The Crowbell boss patrols this path, ringing the bell as it moves to its arena."
+        },
+        {
+          "name": "Dryadic Ritual",
+          "type": "Notable landmark",
+          "description": "Three Skeleton Spriggans performing a ritual that summons a rare Cultivated Grove enemy. Defeating it yields an Uncut Support Gem (Level 1)."
+        },
+        {
+          "name": "Ritual Altar",
+          "type": "Notable landmark",
+          "description": "A single Ritual altar located near the center. Completing this ritual (after the others) spawns 'Ominous Altars' quest progression and grants a Level 4 Uncut Skill Gem."
+        }
+      ],
+      "quests": [
+        "Ominous Altars"
+      ],
+      "monsters": [
+        "The Crowbell",
+        "Albino Rhoa (very rare)",
+        "Bramble Ape",
+        "Bramble Burrower",
+        "Bramble Hulk",
+        "Bramble Rhoa",
+        "Venomous Crab",
+        "Venomous Crab Matriarch"
+      ]
+    },
+    {
+      "name": "Freythorn",
+      "id": "G1_12",
+      "act": 1,
+      "type": "area",
+      "area_level": 11,
+      "has_waypoint": true,
+      "connections": [
+        "Hunting Grounds"
+      ],
+      "points_of_interest": [
+        {
+          "name": "Unnamed Ritual",
+          "type": "Boss arena",
+          "description": "A central circular ritual area unlocked after completing three Ritual events in the zone. Completing the final ritual spawns The King in the Mists. Ritual Tribute can be spent at the altar for rewards."
+        }
+      ],
+      "quests": [
+        "Ominous Altars"
+      ],
+      "monsters": [
+        "The King in the Mists",
+        "Cultist Archer",
+        "Cultist Brute",
+        "Cultist Daggerdancer",
+        "Cultist Warrior",
+        "Cultist Witch",
+        "Ribrattle",
+        "Skeleton Spriggan",
+        "Skullslinger",
+        "Spinesnatcher"
+      ]
+    },
+    {
+      "name": "Ogham Farmlands",
+      "id": "G1_13_1",
+      "act": 1,
+      "type": "area",
+      "area_level": 12,
+      "has_waypoint": true,
+      "connections": [
+        "Hunting Grounds",
+        "Ogham Village"
+      ],
+      "points_of_interest": [
+        {
+          "name": "Crop Circle",
+          "type": "Miniboss arena",
+          "description": "A circular field where packs of Rabid Dogs and a rare Rabid Dog (Vargir the Feral Mutt) spawn. Vargir drops an Uncut Skill Gem (Level 4)."
+        },
+        {
+          "name": "Una's Home",
+          "type": "Notable landmark",
+          "description": "A hut containing Una's Lute Box. Looting Una's Lute triggers the quest 'The Lost Lute'. Returning this item to Una in Clearfell Encampment unlocks the town's Salvage Bench."
+        }
+      ],
+      "quests": [
+        "The Lost Lute"
+      ],
+      "monsters": [
+        "Vargir the Feral Mutt",
+        "Scarecrow Beast",
+        "Rotting Crow",
+        "Pack Werewolf",
+        "Voracious Werewolf",
+        "Decrepit Mercenary",
+        "Risen Farmhand",
+        "Rabid Dog"
+      ]
+    },
+    {
+      "name": "Ogham Village",
+      "id": "G1_13_2",
+      "act": 1,
+      "type": "area",
+      "area_level": 13,
+      "has_waypoint": true,
+      "connections": [
+        "Ogham Farmlands",
+        "The Manor Ramparts"
+      ],
+      "points_of_interest": [
+        {
+          "name": "Executioner's Block",
+          "type": "Boss arena",
+          "description": "A broad plaza in front of a wooden gallows platform. This is where The Executioner is fought, dropping an Uncut Support Gem (Level 1)."
+        },
+        {
+          "name": "Renly's Workshop",
+          "type": "Notable landmark",
+          "description": "A workshop containing Renly's Smithing Tools. Taking these triggers the quest 'Finding the Forge'; returning them to Renly in Act 1 town unlocks the Salvage Bench feature."
+        }
+      ],
+      "quests": [
+        "Finding the Forge",
+        "The Trail of Corruption",
+        "The Mad Wolf of Ogham"
+      ],
+      "monsters": [
+        "The Executioner",
+        "Blood Collector",
+        "Decrepit Mercenary",
+        "Voracious Werewolf",
+        "Blood Cretin",
+        "Burning Dead",
+        "Volatile Boar"
+      ]
+    },
+    {
+      "name": "The Manor Ramparts",
+      "id": "G1_14",
+      "act": 1,
+      "type": "area",
+      "area_level": 14,
+      "has_waypoint": true,
+      "connections": [
+        "Ogham Village",
+        "Ogham Manor"
+      ],
+      "points_of_interest": [
+        {
+          "name": "The Gallows",
+          "type": "Notable chest",
+          "description": "A hanging scaffold with a corpse. Interacting with the noose rope causes a Level 1 Uncut Support Gem to drop from the hanged man's body."
+        }
+      ],
+      "quests": [
+        "The Mad Wolf of Ogham"
+      ],
+      "monsters": [
+        "Iron Thaumaturgist",
+        "Iron Guard",
+        "Iron Spearman",
+        "Decrepit Mercenary",
+        "Blood Carrier",
+        "Blood Cretin",
+        "Blood Collector",
+        "Courtesan",
+        "Gargoyle Demon"
+      ]
+    },
+    {
+      "name": "Ogham Manor",
+      "id": "G1_15",
+      "act": 1,
+      "type": "area",
+      "area_level": 15,
+      "has_waypoint": true,
+      "connections": [
+        "The Manor Ramparts"
+      ],
+      "points_of_interest": [
+        {
+          "name": "Throne of the Wolf",
+          "type": "Boss arena",
+          "description": "The final arena on the bottom floor where Count Geonor is fought."
+        },
+        {
+          "name": "Grotesque Altar",
+          "type": "Boss arena",
+          "description": "An altar on the first floor. Interacting with the Psalm of Madness here summons Candlemass, the Living Rite. Defeating Candlemass awards Candlemass' Essence (+20 max life)."
+        }
+      ],
+      "quests": [
+        "The Mad Wolf of Ogham"
+      ],
+      "monsters": [
+        "Count Geonor",
+        "Candlemass, the Living Rite",
+        "Courtesan",
+        "Iron Thaumaturgist",
+        "Iron Guard",
+        "Iron Spearman",
+        "Iron Sharpshooter",
+        "Iron Enforcer",
+        "Blood Carrier",
+        "Blood Cretin",
+        "Blood Collector",
+        "Tendril Prowler",
+        "Tendril Sentinel"
+      ]
+    }
+  ],
+  "Act2": [
+    {
+      "name": "Vastiri Outskirts",
+      "id": "G2_1",
+      "act": 2,
+      "type": "area",
+      "area_level": 16,
+      "has_waypoint": true,
+      "connections": [
+        "The Ardura Caravan"
+      ],
+      "points_of_interest": [
+        {
+          "name": "Raider's Cliffs",
+          "type": "Boss arena",
+          "description": "Hyena Demons will constantly spawn and non-targetable Sun Clan Scavengers will continuously pelt the player with spears when approaching the cliff to face Rathbreaker. Once Rathbreaker is defeated, all spawned Hyena Demons and Sun Clan Scavengers will run towards or jump into the arena in an ambush."
+        },
+        {
+          "name": "Raided Camp",
+          "type": "Notable chest",
+          "description": "A small camp that contains several piles of gold, a few lootable corpses, and a rare chest."
+        }
+      ],
+      "npcs": [
+        {
+          "name": "Zarka",
+          "role": "Vendor (caster weapons, foci, flasks, charms, jewellery; disenchants items)"
+        },
+        {
+          "name": "Risu, Faridun Defector",
+          "role": "Gambler (unlocked during Act 2 quest 'The Trail of Corruption')"
+        },
+        {
+          "name": "The Hooded One",
+          "role": "Identifies items; refunds passive skills for gold"
+        }
+      ],
+      "quests": [
+        "Earning Passage"
+      ],
+      "monsters": [
+        "Rathbreaker",
+        "Sandscoured Dead",
+        "Hyena Demon",
+        "Sun Clan Scavenger",
+        "Brimstone Crab",
+        "Crag Leaper",
+        "Rotting Hulk"
+      ]
+    },
+    {
+      "name": "The Ardura Caravan",
+      "id": "G2_Town",
+      "act": 2,
+      "type": "town",
+      "area_level": 32,
+      "has_waypoint": true,
+      "connections": [
+        "Vastiri Outskirts",
+        "Traitor's Passage",
+        "The Halani Gates",
+        "Keth",
+        "Mastodon Badlands",
+        "Valley of the Titans",
+        "Deshar",
+        "Mawdun Quarry",
+        "The Dreadnought",
+        "Trial of the Sekhemas",
+        "Sandswept Marsh (Act 3 entry)"
+      ],
+      "npcs": [
+        {
+          "name": "Shambrin",
+          "role": "Weapons vendor (martial weapons for gold)"
+        },
+        {
+          "name": "Zarka",
+          "role": "Caster goods vendor (caster weapons, foci, flasks, charms, jewellery; disenchants items)"
+        },
+        {
+          "name": "Risu, Faridun Defector",
+          "role": "Gambler (unlocked during Act 2 quest 'The Trail of Corruption')"
+        },
+        {
+          "name": "The Hooded One",
+          "role": "Sin in disguise – identifies items and refunds passives"
+        },
+        {
+          "name": "Sekhema Asala",
+          "role": "Maraketh leader of the caravan"
+        }
+      ],
+      "interactables": [
+        {
+          "name": "Well",
+          "description": "Refills life, mana, and flask/charm charges"
+        },
+        {
+          "name": "Waypoint",
+          "description": "Teleport to other waypoints"
+        },
+        {
+          "name": "Salvage Bench",
+          "description": "Salvage gear with quality or rune sockets for currency (unlocked after 'Finding the Forge')"
+        },
+        {
+          "name": "Desert Map",
+          "description": "Navigation map used to move the caravan to new locations"
+        }
+      ],
+      "quests": [
+        "The Trail of Corruption",
+        "A Theft of Ivory",
+        "The City of Seven Waters",
+        "A Crown of Stone",
+        "Ancient Vows (optional)",
+        "Ascent to Power (optional)",
+        "Tradition's Toll (optional)"
+      ]
+    },
+    {
+      "name": "Mawdun Quarry",
+      "id": "G2_10_1",
+      "act": 2,
+      "type": "area",
+      "area_level": 17,
+      "has_waypoint": true,
+      "connections": [
+        "Mawdun Mine",
+        "The Ardura Caravan"
+      ],
+      "points_of_interest": [
+        {
+          "name": "Faridun War Cache",
+          "type": "Notable chest",
+          "description": "Contains an Artifcer's Orb"
+        }
+      ],
+      "quests": [],
+      "monsters": [
+        "Armoured Rhex",
+        "Forsaken Hulk",
+        "Forsaken Miner",
+        "Corrupted Corpse",
+        "Plague Swarm"
+      ]
+    },
+    {
+      "name": "Mawdun Mine",
+      "id": "G2_10_2",
+      "act": 2,
+      "type": "area",
+      "area_level": 18,
+      "has_waypoint": true,
+      "connections": [
+        "Mawdun Quarry"
+      ],
+      "points_of_interest": [
+        {
+          "name": "Munitions Bunker",
+          "type": "Boss arena",
+          "description": "Boss arena for Rudja, the Dread Engineer. Drops a Level 6 Uncut Skill Gem."
+        }
+      ],
+      "quests": [
+        "The Trail of Corruption"
+      ],
+      "monsters": [
+        "Rudja, the Dread Engineer",
+        "Corrupted Corpse",
+        "Plague Nymph",
+        "Forgotten Stalker",
+        "Forgotten Satyr",
+        "Faridun Crawler",
+        "Forsaken Miner"
+      ]
+    },
+    {
+      "name": "Traitor's Passage",
+      "id": "G2_2",
+      "act": 2,
+      "type": "area",
+      "area_level": 19,
+      "has_waypoint": true,
+      "connections": [
+        "The Ardura Caravan",
+        "The Halani Gates"
+      ],
+      "points_of_interest": [
+        {
+          "name": "Prison of the Disgraced",
+          "type": "Boss arena",
+          "description": "Balbala's arena on the second floor, sealed by runic doors. Destroy three Runic Seals along the path that begins at the Decree of Imprisonment to release her."
+        },
+        {
+          "name": "The Six Sisters",
+          "type": "Notable landmark",
+          "description": "Semi‑circular staircase surrounding six statues on stone pillars; a checkpoint is adjacent. The Witch has a unique line here."
+        },
+        {
+          "name": "Looted Dead End",
+          "type": "Notable chest",
+          "description": "A side dead end containing several loot piles and a checkpoint."
+        }
+      ],
+      "quests": [
+        "The Trail of Corruption",
+        "Ascent to Power"
+      ],
+      "monsters": [
+        "Balbala, the Traitor",
+        "Black Strider",
+        "Quake Golem",
+        "Risen Maraketh",
+        "Skitter Golem",
+        "Vault Lurker",
+        "Tombshrieker"
+      ]
+    },
+    {
+      "name": "The Halani Gates",
+      "id": "G2_3",
+      "act": 2,
+      "type": "area",
+      "area_level": 20,
+      "has_waypoint": true,
+      "connections": [
+        "The Ardura Caravan",
+        "Traitor's Passage"
+      ],
+      "points_of_interest": [
+        {
+          "name": "Infested Tower",
+          "type": "Boss arena",
+          "description": "Inner-most arena smothered in the Beast’s tendrils where Jamanra, the Risen King is fought."
+        },
+        {
+          "name": "Forward Command Tents",
+          "type": "Miniboss arena",
+          "description": "Tent encircled by impaled corpses; contains the fixed‑name rare miniboss L'im the Impaler."
+        }
+      ],
+      "quests": [
+        "The Trail of Corruption"
+      ],
+      "monsters": [
+        "Jamanra, the Risen King",
+        "L'im the Impaler",
+        "Boulder Ant",
+        "Faridun Bladedancer",
+        "Faridun Heavy Infantry",
+        "Faridun Fledgling",
+        "Faridun Infantry",
+        "Faridun Javelineer",
+        "Faridun Neophyte",
+        "Faridun Spearman",
+        "Faridun Spearwoman",
+        "Faridun Swordsman",
+        "Faridun Wind-slicer",
+        "Terracotta Soldier"
+      ]
+    },
+    {
+      "name": "Keth",
+      "id": "G2_4_1",
+      "act": 2,
+      "type": "area",
+      "area_level": 21,
+      "has_waypoint": true,
+      "connections": [
+        "The Ardura Caravan",
+        "The Lost City"
+      ],
+      "points_of_interest": [
+        {
+          "name": "The Venom Pit",
+          "type": "Boss arena",
+          "description": "Small sand pit arena where Kabala, Constrictor Queen is encountered."
+        },
+        {
+          "name": "Abandoned Shrine",
+          "type": "Notable chest",
+          "description": "Shrine of Hotak with piles of gold and a rare chest that drops a magic amulet."
+        },
+        {
+          "name": "Looted Vault",
+          "type": "Notable landmark",
+          "description": "Looted vault with a nearby checkpoint."
+        }
+      ],
+      "quests": [
+        "The Trail of Corruption",
+        "The City of Seven Waters",
+        "Ancient Vows"
+      ],
+      "monsters": [
+        "Kabala, Constrictor Queen",
+        "Desiccated Lich",
+        "Living Sand",
+        "Risen Maraketh",
+        "Serpent Clan",
+        "Serpent Shaman",
+        "Tarnished Beetle",
+        "Tarnished Scarab"
+      ]
+    },
+    {
+      "name": "The Lost City",
+      "id": "G2_4_2",
+      "act": 2,
+      "type": "area",
+      "area_level": 22,
+      "has_waypoint": true,
+      "connections": [
+        "Keth",
+        "Buried Shrines"
+      ],
+      "points_of_interest": [
+        {
+          "name": "The Galleria",
+          "type": "Miniboss arena",
+          "description": "Hallway patrolled by The Ninth Treasure of Keth. Defeating it drops a magic jewel."
+        },
+        {
+          "name": "Golden Tomb",
+          "type": "Notable chest",
+          "description": "Surrounded by Adorned Beetles; first loot drops a Level 7 Uncut Spirit Gem, with a checkpoint nearby."
+        }
+      ],
+      "quests": [
+        "The Trail of Corruption",
+        "The City of Seven Waters"
+      ],
+      "monsters": [
+        "The Ninth Treasure of Keth",
+        "Adorned Beetle",
+        "Adorned Scarab",
+        "Gilded Beetle",
+        "Risen Arbalest",
+        "Risen Magi",
+        "Risen Maraketh",
+        "Sand Spirit",
+        "Serpent Clan",
+        "Tarnished Beetle",
+        "Terracotta Soldier"
+      ]
+    },
+    {
+      "name": "Buried Shrines",
+      "id": "G2_4_3",
+      "act": 2,
+      "type": "area",
+      "area_level": 23,
+      "has_waypoint": true,
+      "connections": [
+        "The Lost City"
+      ],
+      "points_of_interest": [
+        {
+          "name": "The Heart of Keth",
+          "type": "Boss arena",
+          "description": "Also shown as 'Vestibule of the Rains'; square room with corner urns that create Burning Ground when broken by Azarian."
+        },
+        {
+          "name": "Suspicious Sarcophagus",
+          "type": "Notable chest",
+          "description": "Tomb of Ahkeli, the Honoured Founder; contains a Level 1 Uncut Support Gem and triggers Terracotta Soldiers."
+        },
+        {
+          "name": "Elemental Offering",
+          "type": "Notable chest",
+          "description": "Choose Fire, Water, or Lightning to receive a magic Ruby, Sapphire, or Topaz Ring."
+        },
+        {
+          "name": "The Water Goddess",
+          "type": "Notable landmark",
+          "description": "Ignite Halani using the Everlasting Cinders to obtain The Essence of Water."
+        }
+      ],
+      "quests": [
+        "The Trail of Corruption",
+        "The City of Seven Waters"
+      ],
+      "monsters": [
+        "Azarian, the Forsaken Son",
+        "Risen Arbalest",
+        "Risen Maraketh",
+        "Mar Acolyte",
+        "Vesper Bat",
+        "Sand Spirit",
+        "Terracotta Soldier"
+      ]
+    },
+    {
+      "name": "Mastodon Badlands",
+      "id": "G2_5_1",
+      "act": 2,
+      "type": "area",
+      "area_level": 21,
+      "has_waypoint": true,
+      "connections": [
+        "The Ardura Caravan",
+        "The Bone Pits"
+      ],
+      "points_of_interest": [
+        {
+          "name": "Fossilised Memorial",
+          "type": "Notable chest",
+          "description": "Bone Effigy (Shrine of Bones) that drops a Level 1 Uncut Support Gem."
+        }
+      ],
+      "quests": [
+        "The Trail of Corruption",
+        "A Theft of Ivory"
+      ],
+      "monsters": [
+        "Carrion Reaper",
+        "Gilded Cobra",
+        "Lost-men Brute",
+        "Lost-men Necromancer",
+        "Lost-men Zealot",
+        "Ribrattle",
+        "Sabre Spider",
+        "Skullslinger",
+        "Spinesnatcher"
+      ]
+    },
+    {
+      "name": "The Bone Pits",
+      "id": "G2_5_2",
+      "act": 2,
+      "type": "area",
+      "area_level": 22,
+      "has_waypoint": true,
+      "connections": [
+        "Mastodon Badlands"
+      ],
+      "points_of_interest": [
+        {
+          "name": "Blackrib Pit",
+          "type": "Boss arena",
+          "description": "Circular arena near the end. Both Ekbab, Ancient Steed and Iktab, the Deathlord must be slain in the same instance to drop Mastodon Tusks."
+        }
+      ],
+      "quests": [
+        "The Trail of Corruption",
+        "A Theft of Ivory",
+        "Ancient Vows"
+      ],
+      "monsters": [
+        "Ekbab, Ancient Steed",
+        "Iktab, the Deathlord",
+        "Drudge Osseodon",
+        "Gilded Cobra",
+        "Hyena Demon",
+        "Lost-men Brute",
+        "Lost-men Necromancer",
+        "Lost-men Subjugator",
+        "Lost-men Zealot",
+        "Sun Clan Scavenger",
+        "Skullslinger",
+        "Ribrattle",
+        "Spinesnatcher"
+      ]
+    },
+    {
+      "name": "Valley of the Titans",
+      "id": "G2_6",
+      "act": 2,
+      "type": "area",
+      "area_level": 21,
+      "has_waypoint": true,
+      "connections": [
+        "The Ardura Caravan",
+        "The Titan Grotto"
+      ],
+      "points_of_interest": [
+        {
+          "name": "Ancient Seals",
+          "type": "Notable landmark",
+          "description": "Activate the three Titan seals (Rajendra, Sundari, Shakti) to open the Clasped Entry."
+        },
+        {
+          "name": "The Clasped Entry",
+          "type": "Notable landmark",
+          "description": "Sealed doorway leading to The Titan Grotto."
+        },
+        {
+          "name": "Medallion (Offering to Amrit)",
+          "type": "Notable landmark",
+          "description": "Socket the Kabala and Sun Clan Relics to choose a permanent bonus: 30% increased Charm Charges gained or 15% increased Mana Recovery from Flasks (Life Recovery in Cruel)."
+        }
+      ],
+      "quests": [
+        "The Trail of Corruption",
+        "A Crown of Stone",
+        "Ancient Vows"
+      ],
+      "monsters": [
+        "Desiccated Lich",
+        "Dune Lurker",
+        "Quake Golem",
+        "Risen Maraketh",
+        "Skitter Golem",
+        "Walking Goliath"
+      ]
+    },
+    {
+      "name": "The Titan Grotto",
+      "id": "G2_7",
+      "act": 2,
+      "type": "area",
+      "area_level": 22,
+      "has_waypoint": true,
+      "connections": [
+        "Valley of the Titans"
+      ],
+      "points_of_interest": [
+        {
+          "name": "Dais of Reckoning",
+          "type": "Boss arena",
+          "description": "Circular arena where Zalmarath, the Colossus is fought; parts of the arena can be broken off during the fight."
+        }
+      ],
+      "quests": [
+        "A Crown of Stone"
+      ],
+      "monsters": [
+        "Zalmarath, the Colossus",
+        "Black Strider",
+        "Goliath",
+        "Sandflesh Skeleton",
+        "Sandflesh Warrior",
+        "Sandflesh Mage",
+        "Terracotta Fanatic",
+        "Vril Apparition",
+        "Winged Horror"
+      ]
+    },
+    {
+      "name": "Deshar",
+      "id": "G2_8",
+      "act": 2,
+      "type": "area",
+      "area_level": 28,
+      "has_waypoint": true,
+      "connections": [
+        "The Ardura Caravan",
+        "Path of Mourning"
+      ],
+      "points_of_interest": [
+        {
+          "name": "Forgotten Corpses / The Wretched Sluice",
+          "type": "Miniboss arena",
+          "description": "Also marked as Watchful Twins on the world map; defeat the two vultures to (first time) drop a Djinn Barya."
+        },
+        {
+          "name": "Fallen Dekhara",
+          "type": "Notable landmark",
+          "description": "Drops the Final Letter for the optional quest Tradition's Toll."
+        },
+        {
+          "name": "The Forgotten Hollow",
+          "type": "Notable chest",
+          "description": "Contains an Artificer's Orb."
+        },
+        {
+          "name": "Abandoned Rhoa",
+          "type": "Environmental lore",
+          "description": "Interactive object at the entrance; also triggers Tradition's Toll."
+        }
+      ],
+      "quests": [
+        "The Trail of Corruption",
+        "Tradition's Toll"
+      ],
+      "monsters": [
+        "Mugin, Frost Bringer",
+        "Hunin, Storm Caller",
+        "Maraketh Undead",
+        "Porcupine Goliath",
+        "Rasp Scavenger",
+        "Regurgitating Vulture",
+        "Vile Vulture"
+      ]
+    },
+    {
+      "name": "Path of Mourning",
+      "id": "G2_9_1",
+      "act": 2,
+      "type": "area",
+      "area_level": 29,
+      "has_waypoint": true,
+      "connections": [
+        "Deshar",
+        "The Spires of Deshar"
+      ],
+      "points_of_interest": [
+        {
+          "name": "Hushed Urn",
+          "type": "Notable chest",
+          "description": "Also shown as Shifting Vases on the world map; spawns Urnwalkers and drops a Level 8 Uncut Skill Gem."
+        }
+      ],
+      "quests": [
+        "The Trail of Corruption"
+      ],
+      "monsters": [
+        "Risen Tale-woman",
+        "Risen Maraketh",
+        "Maraketh Undead",
+        "Urnwalker"
+      ]
+    },
+    {
+      "name": "The Spires of Deshar",
+      "id": "G2_9_2",
+      "act": 2,
+      "type": "area",
+      "area_level": 30,
+      "has_waypoint": true,
+      "connections": [
+        "Path of Mourning"
+      ],
+      "points_of_interest": [
+        {
+          "name": "The Defiled Spire",
+          "type": "Boss arena",
+          "description": "Ring-like rooftop arena with a central hole; Tor Gul, the Defiler is encountered here."
+        },
+        {
+          "name": "Sisters of Garukhan",
+          "type": "Notable landmark",
+          "description": "Grants a permanent +10% Lightning Resistance and spawns Kinarha statues."
+        },
+        {
+          "name": "Testament of Defiance",
+          "type": "Environmental lore",
+          "description": "Lore text near the Sisters of Garukhan shrine."
+        }
+      ],
+      "quests": [
+        "The Trail of Corruption"
+      ],
+      "monsters": [
+        "Tor Gul, the Defiler",
+        "Faridun Impaler",
+        "Faridun Swordsman",
+        "Faridun Spearman",
+        "Faridun Spearwoman",
+        "Faridun Heavy Infantry",
+        "Faridun Bladedancer",
+        "Faridun Wind-slicer",
+        "Faridun Javelineer",
+        "Faridun Infantry",
+        "Faridun Neophyte",
+        "Faridun Fledgling",
+        "Kinarha",
+        "Maraketh Undead",
+        "Spire Burrower",
+        "Vile Vulture",
+        "Winged Fiend"
+      ]
+    },
+    {
+      "name": "The Dreadnought",
+      "id": "G2_12_1",
+      "act": 2,
+      "type": "area",
+      "area_level": 31,
+      "has_waypoint": true,
+      "connections": [
+        "The Ardura Caravan",
+        "Dreadnought Vanguard"
+      ],
+      "points_of_interest": [
+        {
+          "name": "Bridgehead Ambush",
+          "type": "Notable encounter",
+          "description": "A guaranteed magic monster pack appears just before the final checkpoint leading into Dreadnought Vanguard."
+        }
+      ],
+      "quests": [
+        "The Trail of Corruption"
+      ],
+      "monsters": [
+        "Faridun Plaguebringer",
+        "Faridun Swordsman",
+        "Faridun Spearman",
+        "Faridun Spearwoman",
+        "Faridun Heavy Infantry",
+        "Faridun Bladedancer",
+        "Faridun Wind-slicer",
+        "Faridun Javelineer",
+        "Faridun Infantry",
+        "Faridun Neophyte",
+        "Faridun Fledgling",
+        "Faridun Crawler",
+        "Plague Swarm",
+        "Plague Harvester"
+      ]
+    },
+    {
+      "name": "Dreadnought Vanguard",
+      "id": "G2_12_2",
+      "act": 2,
+      "type": "area",
+      "area_level": 32,
+      "has_waypoint": true,
+      "connections": [
+        "The Dreadnought",
+        "Sandswept Marsh"
+      ],
+      "points_of_interest": [
+        {
+          "name": "The Faridun Throne",
+          "type": "Boss arena",
+          "description": "Small saddle-top arena on the Dreadnought where Jamanra, the Abomination is fought."
+        }
+      ],
+      "quests": [
+        "The Trail of Corruption"
+      ],
+      "monsters": [
+        "Jamanra, the Abomination",
+        "Faridun Swordsman",
+        "Faridun Spearman",
+        "Faridun Spearwoman",
+        "Faridun Heavy Infantry",
+        "Faridun Bladedancer",
+        "Faridun Wind-slicer",
+        "Faridun Javelineer",
+        "Faridun Infantry",
+        "Faridun Neophyte",
+        "Faridun Fledgling",
+        "Faridun Butcher"
+      ]
+    }
+  ],
+  "Act3": [
+    {
+      "name": "Sandswept Marsh",
+      "id": "G3_1",
+      "act": 3,
+      "type": "area",
+      "area_level": 33,
+      "has_waypoint": true,
+      "connections": [
+        "The Ardura Caravan",
+        "Ziggurat Encampment"
+      ],
+      "points_of_interest": [
+        {
+          "name": "Foul Ritual",
+          "type": "Boss arena",
+          "description": "Ritual site where Rootdredge is encountered; drops a Level 9 Uncut Skill Gem."
+        },
+        {
+          "name": "Orok Campfire",
+          "type": "Notable chest",
+          "description": "Small Orok (Azak) settlement with a chest that drops a Lesser Jeweller's Orb."
+        },
+        {
+          "name": "Hanging Tree",
+          "type": "Notable chest",
+          "description": "Nearby corpse contains a magic ring."
+        },
+        {
+          "name": "Expedition Logbook",
+          "type": "Environmental lore",
+          "description": "Lore object found at the entrance to the area."
+        }
+      ],
+      "quests": [
+        "Legacy of the Vaal"
+      ],
+      "npcs": [
+        {
+          "name": "Zarka",
+          "role": "Sells caster weapons, foci, flasks, charms, and jewellery; disenchants items for currency shards."
+        },
+        {
+          "name": "The Hooded One",
+          "role": "Identify inventory; refund passives skills for gold."
+        }
+      ],
+      "monsters": [
+        "Rootdredge",
+        "Garkam, Ranbu's Maul",
+        "Ranbu the Pale Shaman",
+        "Bloodthief Queen",
+        "Bloodthief Wasp",
+        "Bog Hulk",
+        "Bogfelled Slave",
+        "Bogfelled Commoner",
+        "Dredge Fiend",
+        "Orok Fleshstabber",
+        "Orok Hunter",
+        "Orok Shaman",
+        "Orok Throatcutter",
+        "Rotting Hulk",
+        "Swamp Golem"
+      ]
+    },
+    {
+      "name": "Ziggurat Encampment",
+      "id": "G3_Town",
+      "act": 3,
+      "type": "town",
+      "area_level": 44,
+      "has_waypoint": true,
+      "connections": [
+        "Sandswept Marsh",
+        "Jungle Ruins",
+        "The Drowned City",
+        "Temple of Kopec",
+        "Utzaal"
+      ],
+      "points_of_interest": [
+        {
+          "name": "Waypoint",
+          "type": "Waypoint",
+          "description": "Teleport to other discovered waypoints."
+        },
+        {
+          "name": "Well",
+          "type": "Service",
+          "description": "Restores life, mana, and flask and charm charges."
+        },
+        {
+          "name": "Salvage Bench",
+          "type": "Crafting",
+          "description": "Unlocked after completing Finding the Forge; salvages equipment with quality or rune sockets for currency."
+        },
+        {
+          "name": "Time Portal",
+          "type": "Mechanism",
+          "description": "Unlocked during Legacy of the Vaal; travel to the past (400 BIC, the peak of Atziri's reign)."
+        },
+        {
+          "name": "Oswald's Death Journal",
+          "type": "Lore",
+          "description": "A readable lore object."
+        }
+      ],
+      "quests": [
+        "Legacy of the Vaal",
+        "The Slithering Dead",
+        "Tribal Vengeance",
+        "The Trials of Chaos",
+        "Treasures of Utzaal"
+      ],
+      "npcs": [
+        {
+          "name": "Oswald",
+          "role": "Sells martial weapons; vendors items for gold."
+        },
+        {
+          "name": "Servi",
+          "role": "Sells caster weapons, foci, flasks, charms, and jewellery; disenchants items for currency shards."
+        },
+        {
+          "name": "Alva",
+          "role": "Gambler; vendors items for gold."
+        },
+        {
+          "name": "The Hooded One",
+          "role": "Identify inventory; refund passive skill points for gold."
+        },
+        {
+          "name": "Doryani",
+          "role": "Appears after completing Legacy of the Vaal."
+        }
+      ],
+      "monsters": []
+    },
+    {
+      "name": "Jungle Ruins",
+      "id": "G3_3",
+      "act": 3,
+      "type": "area",
+      "area_level": 34,
+      "has_waypoint": true,
+      "connections": [
+        "Ziggurat Encampment",
+        "Infested Barrens",
+        "The Venom Crypts"
+      ],
+      "points_of_interest": [
+        {
+          "name": "Temple Ruins",
+          "type": "Boss arena",
+          "description": "Small clearing ringed by broken pillars."
+        },
+        {
+          "name": "Jungle Grave",
+          "type": "Notable landmark",
+          "description": "Summon Servi here to receive a rare Rawhide Belt or Linen Belt."
+        },
+        {
+          "name": "Troubled Camp",
+          "type": "Vendor site",
+          "description": "Gwendolyn Albright appears here as a vendor."
+        },
+        {
+          "name": "Expedition Logbook",
+          "type": "Environmental lore",
+          "description": "Found at the Jungle Grave."
+        }
+      ],
+      "quests": [],
+      "npcs": [
+        {
+          "name": "Gwendolyn Albright",
+          "role": "Vendor."
+        }
+      ],
+      "monsters": [
+        "Mighty Silverfist",
+        "Antlion Charger",
+        "Alpha Primate",
+        "Bane Sapling",
+        "Constricted Shambler",
+        "Constricted Spitter",
+        "Feral Primate",
+        "Quadrilla",
+        "Snakethroat Shambler"
+      ]
+    },
+    {
+      "name": "The Venom Crypts",
+      "id": "G3_4",
+      "act": 3,
+      "type": "area",
+      "area_level": 35,
+      "has_waypoint": false,
+      "connections": [
+        "Jungle Ruins"
+      ],
+      "points_of_interest": [
+        {
+          "name": "Priesthood Crypt",
+          "type": "Notable chest",
+          "description": "Contains several sarcophagus chests of random rarity."
+        },
+        {
+          "name": "Den of the Serpent Priestess",
+          "type": "Notable landmark",
+          "description": "A corpse here holds Corpse-snake Venom."
+        }
+      ],
+      "quests": [
+        "Den of Snakes"
+      ],
+      "npcs": [],
+      "monsters": [
+        "Entwined Hulk",
+        "Snakethroat Shambler",
+        "Constricted Shambler",
+        "Constricted Spitter",
+        "Entrailhome Shambler",
+        "Slitherspitter",
+        "Rotted Rat",
+        "Scorpion Monkey"
+      ]
+    },
+    {
+      "name": "Infested Barrens",
+      "id": "G3_2_1",
+      "act": 3,
+      "type": "area",
+      "area_level": 35,
+      "has_waypoint": true,
+      "connections": [
+        "Jungle Ruins",
+        "The Azak Bog",
+        "Chimeral Wetlands",
+        "The Matlan Waterways"
+      ],
+      "points_of_interest": [
+        {
+          "name": "Larva Hollow",
+          "type": "Miniboss arena",
+          "description": "A small cave containing several bugs."
+        },
+        {
+          "name": "Canal Mechanism",
+          "type": "Notable landmark",
+          "description": "Used to drain the entrance to The Matlan Waterways. Requires a Large Soul Core."
+        },
+        {
+          "name": "Troubled Camp",
+          "type": "Notable landmark",
+          "description": "Small camp where Sebastian Carroway (vendor) appears."
+        }
+      ],
+      "quests": [
+        "Legacy of the Vaal"
+      ],
+      "npcs": [
+        {
+          "name": "Sebastian Carroway",
+          "role": "Vendor at the Troubled Camp."
+        }
+      ],
+      "monsters": [
+        "The Brood Queen",
+        "Flesh Larva",
+        "Bane Sapling",
+        "Antlion Charger",
+        "Ill-fated Explorer",
+        "Diretusk Boar",
+        "Nettle Ant"
+      ]
+    },
+    {
+      "name": "The Azak Bog",
+      "id": "G3_7",
+      "act": 3,
+      "type": "area",
+      "area_level": 36,
+      "has_waypoint": true,
+      "connections": [
+        "Infested Barrens"
+      ],
+      "points_of_interest": [
+        {
+          "name": "Gor-gor Mog",
+          "type": "Boss arena",
+          "description": "Large circular arena at the far end of the zone. Ignagduk, the Bog Witch drops Gemrot Skull and Ignagduk's Ghastly Spear."
+        },
+        {
+          "name": "Flameskin Ritual",
+          "type": "Notable landmark",
+          "description": "Ritual site ringed by five Small Effigies. Lighting all five and approaching the central effigy grants Ignagduk's Harvest: +25% Fire Resistance and 25% increased item rarity for the rest of the instance; can be reacquired if lost."
+        }
+      ],
+      "quests": [
+        "Tribal Vengeance"
+      ],
+      "npcs": [],
+      "monsters": [
+        "Ignagduk, the Bog Witch",
+        "Azak Brute",
+        "Azak Fledgling",
+        "Azak Fleshstabber",
+        "Azak Mauler",
+        "Azak Shaman",
+        "Azak Stalker",
+        "Azak Spearthrower",
+        "Azak Throatcutter",
+        "Azak Torchbearer",
+        "Chaw Mongrel"
+      ]
+    },
+    {
+      "name": "Chimeral Wetlands",
+      "id": "G3_5",
+      "act": 3,
+      "type": "area",
+      "area_level": 36,
+      "has_waypoint": true,
+      "connections": [
+        "Infested Barrens",
+        "Jiquani's Machinarium"
+      ],
+      "points_of_interest": [
+        {
+          "name": "Deadly Nest",
+          "type": "Boss arena",
+          "description": "Entrance to the Machinarium. Xyclucian can land on one of three destructible pillars. Drops a Level 9 Uncut Skill Gem and a Chimeral Inscribed Ultimatum (take to the Temple of Chaos for a Trial of Chaos). In Cruel, the quest version Inscribed Ultimatum does not drop."
+        },
+        {
+          "name": "Toxic Bloom",
+          "type": "Miniboss arena",
+          "description": "Several flowers create pools of Caustic Ground. The boss drops a magic amulet."
+        },
+        {
+          "name": "Ravaged Camp",
+          "type": "Notable chest",
+          "description": "Contains two magic chests and one rare chest."
+        }
+      ],
+      "quests": [
+        "Legacy of the Vaal"
+      ],
+      "npcs": [],
+      "monsters": [
+        "Xyclucian, the Chimera",
+        "The Noxious Behemoth",
+        "Bloom Serpent",
+        "Ill-fated Explorer",
+        "Diretusk Boar",
+        "Prowling Chimeral",
+        "River Drake"
+      ]
+    },
+    {
+      "name": "The Trial of Chaos",
+      "id": "G3_10_Trial",
+      "act": 3,
+      "type": "ascension trial",
+      "connections": [
+        "The Temple of Chaos"
+      ],
+      "points_of_interest": [
+        {}
+      ],
+      "quests": [
+        "The Trials of Chaos"
+      ],
+      "npcs": [
+        {
+          "name": "The Trialmaster",
+          "role": "Final optional boss of the Trial of Chaos. Appears after using three Fates to unlock the door; drops exclusive uniques and corrupted Inscribed Ultimatums with wager modifiers."
+        }
+      ],
+      "monsters": [
+        "Chaos Zealot",
+        "Bloodrite Guard",
+        "Bloodrite Priest",
+        "Cerebral Bat",
+        "Scute Lizard",
+        "Petulant Stonemaw",
+        "Stoneclad Gorilla",
+        "Saurian Servant",
+        "Crested Behemoth",
+        "Bahlak, the Sky Seer",
+        "Uxmal, the Beastlord",
+        "Chetza, the Feathered Plague",
+        "The Trialmaster"
+      ]
+    },
+    {
+      "name": "Jiquani's Machinarium",
+      "id": "G3_6_1",
+      "act": 3,
+      "type": "area",
+      "area_level": 37,
+      "has_waypoint": true,
+      "connections": [
+        "Chimeral Wetlands",
+        "Jiquani's Sanctum"
+      ],
+      "points_of_interest": [
+        {
+          "name": "The Oubliette",
+          "type": "Boss arena",
+          "description": "Small arena with four stone pillars. Requires a Small Soul Core to access."
+        },
+        {
+          "name": "Supply Room",
+          "type": "Notable chest",
+          "description": "Stacks of Gold and three rare chests. Requires a Small Soul Core to access."
+        }
+      ],
+      "quests": [
+        "Legacy of the Vaal"
+      ],
+      "npcs": [],
+      "monsters": [
+        "Blackjaw, the Remnant",
+        "Stone Sentinel",
+        "Vaal Skeletal Priest",
+        "Pale-stitched Stalker",
+        "Vaal Skeletal Warrior",
+        "Vaal Skeletal Squire",
+        "Vaal Skeletal Archer",
+        "Rusted Reconstructor",
+        "Rusted Dyna Golem",
+        "Crawler Sentinel",
+        "Rotted Rat"
+      ]
+    },
+    {
+      "name": "Jiquani's Sanctum",
+      "id": "G3_6_2",
+      "act": 3,
+      "type": "area",
+      "area_level": 38,
+      "has_waypoint": true,
+      "connections": [
+        "Jiquani's Machinarium"
+      ],
+      "points_of_interest": [
+        {
+          "name": "Grand Soul Core Nexus",
+          "type": "Boss arena",
+          "description": "Large mural containing the Large Soul Core. Drops the Large Soul Core and a Level 10 Uncut Spirit Gem."
+        },
+        {
+          "name": "Generator",
+          "type": "Notable landmark",
+          "description": "Two generators found in the far corners; each requires a Medium Soul Core found in the area."
+        },
+        {
+          "name": "Paquate's Mechanism",
+          "type": "Notable landmark",
+          "description": "Corruption Altar that applies a Vaal Orb effect to an item."
+        }
+      ],
+      "quests": [
+        "Legacy of the Vaal"
+      ],
+      "npcs": [],
+      "monsters": [
+        "Zicoatl, Warden of the Core",
+        "Vaal Skeletal Archer",
+        "Vaal Skeletal Priest",
+        "Vaal Skeletal Warrior",
+        "Vaal Skeletal Squire",
+        "Pale-stitched Stalker",
+        "Prowling Shade",
+        "Undead Vaal Bladedancer",
+        "Undead Vaal Guard",
+        "Shockblade Construct",
+        "Stone Sentinel",
+        "Crawler Sentinel",
+        "Reconstructor",
+        "Flame Sentry",
+        "Cyclonic Construct"
+      ]
+    },
+    {
+      "name": "The Matlan Waterways",
+      "id": "G3_2_2",
+      "act": 3,
+      "type": "area",
+      "area_level": 39,
+      "has_waypoint": false,
+      "connections": [
+        "Infested Barrens"
+      ],
+      "points_of_interest": [
+        {
+          "name": "Shaman's Hut",
+          "type": "Miniboss arena",
+          "description": "A small hut along the path; drops a random rare item."
+        },
+        {
+          "name": "Canal Lever",
+          "type": "Notable landmark",
+          "description": "Used to drain Utzaal and open access to the Temple of Kopec and The Drowned City from Ziggurat Encampment."
+        }
+      ],
+      "quests": [
+        "Legacy of the Vaal"
+      ],
+      "npcs": [],
+      "monsters": [
+        "Narg of the Vile Word",
+        "Carver Brute",
+        "Carver Shaman",
+        "Carver Stalker",
+        "Carver Spearthrower",
+        "Carver Fleshstabber",
+        "Carver Mongrelmaster",
+        "Carver Throatcutter",
+        "Chaw Mongrel",
+        "Chyme Skitterer",
+        "River Drake"
+      ]
+    },
+    {
+      "name": "The Drowned City",
+      "id": "G3_8",
+      "act": 3,
+      "type": "area",
+      "area_level": 40,
+      "has_waypoint": true,
+      "connections": [
+        "Ziggurat Encampment",
+        "The Molten Vault",
+        "Apex of Filth"
+      ],
+      "points_of_interest": [
+        {
+          "name": "Swarming Nest",
+          "type": "Notable landmark",
+          "description": "Spawns packs of magic Drowned Crawlers."
+        },
+        {
+          "name": "Shinies",
+          "type": "Notable landmark",
+          "description": "An indoor area containing several piles of Gold."
+        }
+      ],
+      "quests": [],
+      "npcs": [],
+      "monsters": [
+        "River Hag",
+        "Filthy First-born",
+        "Hunchback Clubber",
+        "Flathead Clubber",
+        "Filthy Lobber",
+        "Flathead Warrior",
+        "Drowned Explorer",
+        "Drowned Crawler",
+        "River Drake",
+        "Chyme Skitterer"
+      ]
+    },
+    {
+      "name": "The Molten Vault",
+      "id": "G3_9",
+      "act": 3,
+      "type": "area",
+      "area_level": 41,
+      "has_waypoint": true,
+      "connections": [
+        "The Drowned City"
+      ],
+      "points_of_interest": [
+        {
+          "name": "The Aureaduct",
+          "type": "Boss arena",
+          "description": "Large molten-gold spillway that begins moving during the fight; molten gold damages on contact and empowers Mektul. Reaching the end of the aureaduct is a failstate."
+        }
+      ],
+      "quests": [
+        "Treasures of Utzaal"
+      ],
+      "npcs": [],
+      "monsters": [
+        "Mektul, the Forgemaster",
+        "Gold-melted Blacksmith",
+        "Gold-Melted Sentinel",
+        "Vaal Embalmed Archer",
+        "Vaal Embalmed Bearer",
+        "Vaal Embalmed Axeman",
+        "Vaal Embalmed Spearman",
+        "Vaal Embalmed Rogue",
+        "Gold-Melted Shambler"
+      ]
+    },
+    {
+      "name": "Apex of Filth",
+      "id": "G3_11",
+      "act": 3,
+      "type": "area",
+      "area_level": 41,
+      "has_waypoint": true,
+      "connections": [
+        "The Drowned City"
+      ],
+      "points_of_interest": [
+        {
+          "name": "Stenchpools",
+          "type": "Boss arena",
+          "description": "Small arena with a filthy fountain where the Queen of Filth is fought. Drops the Temple Door Idol."
+        },
+        {
+          "name": "Bubbling Respite",
+          "type": "Notable landmark",
+          "description": "Next to Cauldron Keeper. Throw a Red, Green, and Blue Mushroom into the cauldron to receive quality Gargantuan Life and Mana Flasks."
+        },
+        {
+          "name": "Ancient Carving",
+          "type": "Environmental lore",
+          "description": "Lore tablet at the entrance from The Drowned City."
+        }
+      ],
+      "quests": [
+        "Legacy of the Vaal"
+      ],
+      "npcs": [
+        {
+          "name": "Cauldron Keeper",
+          "role": "Sells caster weapons, foci, flasks, charms, and jewellery; vendors items for gold."
+        }
+      ],
+      "monsters": [
+        "The Queen of Filth",
+        "Pyromushroom Cultivator",
+        "Foul Sage",
+        "Foul Blacksmith",
+        "Foul Mauler",
+        "Hunchback Clubber",
+        "Flathead Clubber",
+        "Flathead Youngling",
+        "Filthy Lobber",
+        "Flathead Warrior",
+        "Filthy Crone"
+      ]
+    },
+    {
+      "name": "Temple of Kopec",
+      "id": "G3_12",
+      "act": 3,
+      "type": "area",
+      "area_level": 42,
+      "has_waypoint": true,
+      "connections": [
+        "Ziggurat Encampment"
+      ],
+      "points_of_interest": [
+        {
+          "name": "Altar of the Sun",
+          "type": "Boss arena",
+          "description": "Circular arena at the peak of the temple surrounded by solar flares. Drops a Level 11 Uncut Skill Gem."
+        }
+      ],
+      "quests": [
+        "Legacy of the Vaal"
+      ],
+      "npcs": [],
+      "monsters": [
+        "Ketzuli, High Priest of the Sun",
+        "Priest of the Sun",
+        "Bloodrite Guard",
+        "Bloodrite Priest",
+        "Adorned Miscreation"
+      ]
+    },
+    {
+      "name": "Utzaal",
+      "id": "G3_14",
+      "act": 3,
+      "type": "area",
+      "area_level": 43,
+      "has_waypoint": true,
+      "connections": [
+        "Ziggurat Encampment (Past)",
+        "Aggorat"
+      ],
+      "points_of_interest": [
+        {
+          "name": "Legion Blockade",
+          "type": "Boss arena",
+          "description": "Viper Napuatzi blocks the central road with Viper Legionnaires. Defeating him causes the remaining legionnaires to break formation and attack. Drops a Level 2 Uncut Support Gem."
+        },
+        {
+          "name": "Trialmaster's Challenge",
+          "type": "Notable landmark",
+          "description": "Take an Ultimatum Key from the Trialmaster statue for an area level 43 Inscribed Ultimatum; bring it to the Temple of Chaos to attempt a Trial of Chaos."
+        },
+        {
+          "name": "Peculiar Fortunes",
+          "type": "Notable landmark",
+          "description": "Three sub-areas containing idols that can be sold to Oswald in Ziggurat Encampment. Uromoti's and Napuatzi's Quarters usually spawn near the Ziggurat Encampment side; Azcapa's Quarters usually spawns toward the Aggorat side."
+        },
+        {
+          "name": "Uromoti's Quarters",
+          "type": "Sub-area",
+          "description": "Piles of Gold and several chests; contains a Glorious Idol that vendors for 1500 Gold."
+        },
+        {
+          "name": "Napuatzi's Quarters",
+          "type": "Sub-area",
+          "description": "Piles of Gold and several chests; contains a Golden Idol that vendors for 500 Gold."
+        },
+        {
+          "name": "Azcapa's Quarters",
+          "type": "Sub-area",
+          "description": "Several chests and breakable urns; contains a Grand Idol that vendors for 1000 Gold."
+        }
+      ],
+      "quests": [
+        "Legacy of the Vaal"
+      ],
+      "npcs": [],
+      "monsters": [
+        "Viper Napuatzi",
+        "Chaotic Zealot",
+        "Gelid Zealot",
+        "Loyal Jaguar",
+        "Vaal Excoriator",
+        "Vaal Goliath",
+        "Vaal Guard",
+        "Vaal Overseer",
+        "Viper Legionnaire"
+      ]
+    },
+    {
+      "name": "Aggorat",
+      "id": "G3_16",
+      "act": 3,
+      "type": "area",
+      "area_level": 44,
+      "has_waypoint": true,
+      "connections": [
+        "Utzaal",
+        "The Black Chambers"
+      ],
+      "points_of_interest": [
+        {
+          "name": "Blood Sacrifice",
+          "type": "Notable landmark",
+          "description": "Place the Sacrificial Heart on the Sacrificial Altar, then stab it with the Sacrificial Dagger to gain 2 passive skill points and 2 weapon set passive skill points."
+        },
+        {
+          "name": "Rejoice!",
+          "type": "Environmental lore",
+          "description": "Lore tablet found at the end of the flower-decorated first half of the area."
+        }
+      ],
+      "quests": [],
+      "npcs": [],
+      "monsters": [
+        "Bannerbearing Zealot",
+        "Blood Zealot",
+        "Chaotic Zealot",
+        "Gelid Zealot",
+        "Fiery Zealot",
+        "Blood Priestess",
+        "Blood Priest",
+        "Vaal Goliath",
+        "Vaal Formshifter",
+        "Vaal Axeman"
+      ]
+    },
+    {
+      "name": "The Black Chambers",
+      "id": "G3_17",
+      "act": 3,
+      "type": "area",
+      "area_level": 45,
+      "has_waypoint": true,
+      "connections": [
+        "Aggorat"
+      ],
+      "points_of_interest": [
+        {
+          "name": "The Testing Pit",
+          "type": "Boss arena",
+          "description": "Large circular arena ringed by laser ports."
+        }
+      ],
+      "quests": [
+        "Legacy of the Vaal"
+      ],
+      "npcs": [],
+      "monsters": [
+        "Doryani, Royal Thaumaturge",
+        "Archer Transcendent",
+        "Bladelash Transcendent",
+        "Brutal Transcendent",
+        "Doryani's Elite",
+        "Fused Swordsman",
+        "Goliath Transcendent",
+        "Shielded Transcendent",
+        "Surgical Experimentalist",
+        "Warrior Transcendent"
+      ]
+    }
+  ]
+}
